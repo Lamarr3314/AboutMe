@@ -1,0 +1,188 @@
+.first_one {
+  margin-top: 20px;
+}
+
+.projects_DropDown, .courses_DropDown, .coding_DropDown, .achievements_DropDown, .ec_DropDown, .education_DropDown, .image_DropDown {
+  display: none;
+  position: absolute;
+  background-color: rgba(145, 253, 248, 0.418);
+  /* border: 3px solid rgba(145, 253, 248, 0.418); */
+  border-radius: 20px;
+  margin-top: 125px;
+  width: 500px;
+}
+.projects_DropDown{
+ margin-left: 1400px; 
+}
+.courses_DropDown{
+  margin-left: 1340px;
+}
+.coding_DropDown{
+  margin-left: 1000px;
+}
+.achievements_DropDown{
+  margin-top: 140px;
+  margin-left: 660px;
+}
+.ec_DropDown{
+  margin-left: 325px;
+}
+.education_DropDown{
+  margin-left: 50px;
+}
+
+.projects_DropDown, .courses_DropDown, .coding_DropDown, .achievements_DropDown, .ec_DropDown, .education_DropDown, .image_DropDown a {
+  color: black;
+  text-decoration: none;
+}
+
+.projects_Link:hover + .projects_DropDown {
+  display: flex;
+}
+.courses_Link:hover + .courses_DropDown{
+  display: flex;
+}
+.coding_Experience_Link:hover + .coding_DropDown{
+  display: flex;
+}
+.achievements_Link:hover +.achievements_DropDown{
+  display:flex;
+}
+.extra_curriculars_Link:hover +.ec_DropDown{
+  display:flex;
+}
+.education_Link:hover+ .education_DropDown{
+  display: flex;
+}
+.image_Link:hover+ .image_DropDown{
+  display:flex;
+}
+
+.navigation_Bar{
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 99.7%;
+  justify-content: space-between;
+  align-items: center;
+  border: 3px solid white;
+  border-radius: 20px;
+}
+.navigation_Bar img {
+  width: 50px;
+  height: 50px;
+  border-radius: 30px;
+  margin-left: 2px;
+}
+#projects_Link {
+  margin-right: 15px;
+}
+body {
+  background-color: rgba(145, 253, 248, 0.418);
+  margin: 0px;
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.navigation_Bar li p {
+  margin: 5px;
+  border: 2px outset black;
+  border-radius: 20px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 20px;
+}
+.navigation_Bar li p:hover {
+  background-color: rgba(167, 247, 241, 0.24);
+}
+body::-webkit-scrollbar {
+  width: 20px; /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: rgba(145, 253, 248, 0.418); /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: white; /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 3px solid white; /* creates padding around scroll thumb */
+}
+#homePage {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#face_Shot {
+  border: 3px solid black;
+  width: 300px;
+  height: 300px;
+  border-radius: 200px;
+}
+#description {
+  padding-left: 700px;
+  padding-right: 700px;
+  margin-bottom: 300px;
+}
+div {
+  margin-top: 100px;
+}
+#school_List {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  justify-content: space-around;
+}
+#middle_School,
+#high_School {
+  width: 400px;
+  height: 400px;
+  border: 5px solid black;
+  border-radius: 5px;
+  margin: 10px;
+}
+#school_Descriptions {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 300px;
+}
+hr {
+  border: 5px solid white;
+  margin-bottom: 100px;
+}
+td img {
+  width: 300px;
+  height: 300px;
+  border: 3px solid white;
+  border-radius: 30px;
+}
+table {
+  text-align: center;
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 300px;
+}
+#title {
+  text-align: center;
+  margin-bottom: 220px;
+  font-size: 100px;
+  color: white;
+  font-size: 40px;
+  /* text-shadow: -1px 1px 2px #000,
+				  1px 1px 2px #000,
+				  1px -1px 0 #000,
+				  -1px -1px 0 #000; */
+  color: black;
+  font-size: 56px;
+  -webkit-text-stroke: 1px #282828;
+  text-shadow: 0px 4px 4px #282828;
+}
